@@ -1,6 +1,7 @@
 <?php
 //header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Origin: http://localhost:5173");
+//header("Access-Control-Allow-Origin: http://localhost:5173");
+header("Access-Control-Allow-Origin: https://superb-tiramisu-0ce30d.netlify.app");
 header("Access-Control-Allow-Credentials: true");
 header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS"); // 必要なHTTPメソッド
 header("Access-Control-Allow-Headers: Content-Type, Accept"); // Content-Type を許可
